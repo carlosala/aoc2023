@@ -1,0 +1,27 @@
+{
+  "name": "@carlosala/aoc2023",
+  "version": "0.1.0",
+  "description": "My own Advent of Code resolution in Typescript",
+  "type": "module",
+  "repository": "https://github.com/carlosala/aoc2023",
+  "author": "Carlo Sala <carlosalag@protonmail.com>",
+  "license": "MIT-0",
+  "private": true,
+  "scripts": {
+    "day": "f(){ bun run src/$1/run.ts; }; f",
+    "format": "prettier -w .",
+    "lint": "eslint --ext .ts .",
+    "lint:fix": "eslint --fix --ext .ts ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "bun-types": "^1.0.15",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.2.2"
+  }
+}
